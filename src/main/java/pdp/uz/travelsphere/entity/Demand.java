@@ -16,6 +16,7 @@ import pdp.uz.travelsphere.entity.enums.Rate;
 @NoArgsConstructor
 @Entity
 public class Demand extends BaseEntity{
+
     @ManyToOne
     private Country country;
 
